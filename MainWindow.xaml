@@ -1,0 +1,11 @@
+﻿<Window x:Class="MotherboardTester.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Тестер материнской платы" Height="200" Width="300">
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="Мультиметр" Width="100" Margin="5" Click="MultimeterButton_Click"/>
+            <Button Content="Осциллограф" Width="100" Margin="5" Click="OscilloscopeButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
