@@ -138,7 +138,7 @@ namespace MotherboardTester
             string[] valuesGNDV3Multimetr = ["-",genValue(0.803f,0.805f).ToString(), "-", genValue(0.803f, 0.805f).ToString(), "-", genValue(0.803f, 0.805f).ToString()];
             string[] valuesGNDV5Multimetr = ["-", genValue(2.15f, 2.17f).ToString(), "-", genValue(2.15f, 2.17f).ToString(), "-", genValue(2.15f, 2.17f).ToString(), "-", genValue(2.15f, 2.17f).ToString(), "-", genValue(2.15f, 2.17f).ToString(), "-", genValue(0.84f, 0.85f).ToString()];
             string[] valuesGNDV12Multimetrr = ["-", genValue(10.3f,10.45f).ToString(), "-", genValue(10.3f, 10.45f).ToString()];
-            string[] valuesGNDQuartzMultimetr = ["-", genValue(0.2f, 0.3f).ToString()];
+            string[] valuesGNDQuartzMultimetr = [genValue(0.2f, 0.3f).ToString(),"-"];
             string[] valuesGNDUSBMultimetr = [ genValue(0.000460f, 0.000465f).ToString(), "-", genValue(0.000460f, 0.000465f).ToString(), "-"];
             string[] valuesGNDKTSMultimetr = [ genValue(2.9f, 3f).ToString(), "-"];
             string[] valuesPCIeTester = [ "16", "16", "16", "4", "4", "4", "4", "4", "4" ];
