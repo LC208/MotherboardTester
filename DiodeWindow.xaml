@@ -1,0 +1,15 @@
+﻿<Window x:Class="MotherboardTester.DiodeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MotherboardTester"
+        mc:Ignorable="d"
+        Title="Диод" Height="450" Width="800"
+        ResizeMode="NoResize">
+    <Grid>
+        <TextBlock Text="Диод" VerticalAlignment="Top"  HorizontalAlignment="Center" FontSize="40"/>
+        <Ellipse x:Name="Diode" Fill="Green" Width="100" Height="100" VerticalAlignment="Center"  HorizontalAlignment="Center" />
+        <TextBlock Text="Примечание: Лабараторный блок питания не реализован программно, поэтому существет допущение того , что его не надо подключать к мат.плате" FontSize="9" Width="772" />
+    </Grid>
+</Window>

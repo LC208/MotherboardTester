@@ -11,19 +11,13 @@ namespace MotherboardTester
             InitializeComponent();
         }
 
-        private void MeasureVoltageButton_Click(object sender, RoutedEventArgs e)
+
+        public void MeasureVoltageAndResist(string v, string r)
         {
-            double voltage = MeasureVoltage();
-            MessageBox.Show($"Измеренное напряжение: {voltage} В");
+            vValue.Text = v;
+            rValue.Text = r;
         }
 
-        private double MeasureVoltage()
-        {
-            //код для измерения напряжения
 
-            // Возврат примерного значения напряжения (здесь это случайное число)
-            Random random = new Random();
-            return random.NextDouble() * 5; // Генерируем случайное напряжение от 0 до 5 В
-        }
     }
 }
